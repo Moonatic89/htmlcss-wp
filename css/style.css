@@ -8,7 +8,7 @@
 }
 
 .clearfix {
-    content: "";
+    content: "flanella";
     display: table;
     clear: both;
 }
@@ -21,7 +21,7 @@
     border-radius: .5rem;
 }
 
-.text_color_gray {
+.text_color_gray, .bot_text {
     color: #929292;
 }
 
@@ -133,6 +133,11 @@ a:link, a:visited, a:hover, a:active {
 
 /* Columns */
 
+.columns {
+    width: 100%;
+    height: 400px;
+}
+
 .top.l_column, .top.r_column, .top.m_column {
     height: 160px;
 }
@@ -149,7 +154,7 @@ a:link, a:visited, a:hover, a:active {
     background-image: url(../img/banner-2.jpg);
 }
 
-aside {
+.top {
     float: left;
     width: 20%;
     margin-bottom: 10px;
@@ -160,8 +165,12 @@ aside {
     margin: 0px 2.5% 10px 2.5%;
 }
 
-aside>p {
-    font-size: 0.5rem;
+p.bot_text {
+    font-size: 10px;
+}
+
+h5.bot_text {
+    padding-top: 170px;
 }
 
 /* footer */
