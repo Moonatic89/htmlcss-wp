@@ -21,10 +21,12 @@
 }
 
 .debug .link_section {
+    background-color: teal;
     height: 10px;
 }
 
 .debug .main_section {
+    background-color: slategray;
     height: 150px;
 }
 
@@ -45,7 +47,7 @@
 body {
     padding: 1rem;
     margin: auto;
-    width: 50%
+    width: 60%
 }
 
 body * {
@@ -54,22 +56,29 @@ body * {
 
 /* Header */
 
-/* .site_header {} */
-
 .logo {
-    height: 50px;
+    height: 45px;
     padding-right: 1rem;
     border-right: 1px solid #e5e5e5;
 }
 
 .link_section {
-    background-color: teal;
     margin-top: 10px;
+    font-size: .6rem;
 }
 
-.main_section {
-    background-color: slategray;
+a:link {
+    text-decoration: none;
+    margin-right: .3rem;
 }
+
+a:link, a:visited, a:hover, a:active {
+    color: #929292;
+}
+
+/* Main Section */
+
+.main_section {}
 
 .secondary_section {
     background-color: cornflowerblue;
