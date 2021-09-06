@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix {
@@ -16,6 +17,7 @@
 
 .debug .site_header {
     height: 40px;
+    background-color: wheat;
 }
 
 .debug .link_section {
@@ -52,8 +54,12 @@ body * {
 
 /* Header */
 
-.site_header {
-    background-color: wheat;
+/* .site_header {} */
+
+.logo {
+    height: 50px;
+    padding-right: 1rem;
+    border-right: 1px solid #e5e5e5;
 }
 
 .link_section {
