@@ -21,6 +21,10 @@
     border-radius: .5rem;
 }
 
+.text_color_gray {
+    color: #929292;
+}
+
 /* Debug */
 
 .debug .site_header {
@@ -56,7 +60,6 @@
 body {
     margin: auto;
     width: 800px;
-    background-color: cadetblue;
 }
 
 body * {
@@ -113,6 +116,11 @@ a:link, a:visited, a:hover, a:active {
 
 /* Middle Section */
 
+.middle_section {
+    padding: 0.5rem 0rem;
+    margin-bottom: 0px;
+}
+
 .middle_text {
     font-size: 1.2rem;
     font-weight: 700;
@@ -120,7 +128,6 @@ a:link, a:visited, a:hover, a:active {
 
 .middle_subtext {
     display: block;
-    color: #929292;
     font-size: .6rem;
 }
 
@@ -153,9 +160,11 @@ aside {
     margin: 0px 2.5% 10px 2.5%;
 }
 
-.overlay::after {
-    background-color: rgba(0, 0, 0, 0.5);
+aside>p {
+    font-size: 0.5rem;
 }
+
+/* footer */
 
 .signature {
     color: cadetblue;
