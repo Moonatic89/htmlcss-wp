@@ -13,6 +13,10 @@
     clear: both;
 }
 
+.rounded {
+    border-radius: .5rem;
+}
+
 /* Debug */
 
 .debug .site_header {
@@ -31,6 +35,7 @@
 }
 
 .debug .secondary_section {
+    background-color: cornflowerblue;
     height: 25px;
 }
 
@@ -95,7 +100,7 @@ a:link, a:visited, a:hover, a:active {
     height: 80%;
 }
 
-.title {
+.main_title {
     width: 100%;
 }
 
@@ -105,9 +110,20 @@ a:link, a:visited, a:hover, a:active {
     font-size: .67em;
 }
 
-*/ .secondary_section {
-    background-color: cornflowerblue;
+/* Middle Section */
+
+.middle_text {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
+.middle_subtext {
+    display: block;
+    color: #929292;
+    font-size: .6rem;
+}
+
+/* Columns */
 
 aside {
     float: left;
@@ -119,10 +135,6 @@ aside {
 .m_column {
     width: 55%;
     margin: 0px 2.5% 10px 2.5%;
-}
-
-.rounded {
-    border-radius: .5rem;
 }
 
 .overlay::after {
