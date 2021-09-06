@@ -45,13 +45,12 @@
 /* Body */
 
 body {
-    padding: 1rem;
     margin: auto;
-    width: 60%
+    width: 800px;
 }
 
 body * {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Header */
@@ -63,8 +62,8 @@ body * {
 }
 
 .link_section {
-    margin-top: 10px;
     font-size: .6rem;
+    margin-bottom: 20px;
 }
 
 a:link {
@@ -78,7 +77,20 @@ a:link, a:visited, a:hover, a:active {
 
 /* Main Section */
 
-.main_section {}
+.main_section {
+    /* background-image: url(../img/banner.jpg); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    height: 300px;
+    width: 800px;
+}
+
+.main_banner {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* border-radius: .25rem; */
+}
 
 .secondary_section {
     background-color: cornflowerblue;
@@ -96,9 +108,12 @@ aside {
     margin: 0px 2.5% 10px 2.5%;
 }
 
-.rounded, .top {
-    /* border: 1px solid black; */
+.rounded {
     border-radius: .25rem;
+}
+
+.overlay::after {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .signature {
