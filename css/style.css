@@ -1,0 +1,95 @@
+/* Essentials */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Debug */
+
+.debug .site_header {
+    height: 40px;
+}
+
+.debug .link_section {
+    height: 10px;
+}
+
+.debug .main_section {
+    height: 150px;
+}
+
+.debug .secondary_section {
+    height: 25px;
+}
+
+.debug .top {
+    height: 70px;
+}
+
+.debug .bot {
+    height: 100px;
+}
+
+/* Body */
+
+body {
+    padding: 1rem;
+    margin: auto;
+    width: 50%
+}
+
+body * {
+    margin-bottom: 20px;
+}
+
+/* Header */
+
+.site_header {
+    background-color: wheat;
+}
+
+.link_section {
+    background-color: teal;
+    margin-top: 10px;
+}
+
+.main_section {
+    background-color: slategray;
+}
+
+.secondary_section {
+    background-color: cornflowerblue;
+}
+
+aside {
+    float: left;
+    background-color: saddlebrown;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.m_column {
+    width: 55%;
+    margin: 0px 2.5% 10px 2.5%;
+}
+
+.rounded, .top {
+    /* border: 1px solid black; */
+    border-radius: .25rem;
+}
+
+.signature {
+    color: cadetblue;
+}
+
+.site_footer {
+    text-align: center;
+}
