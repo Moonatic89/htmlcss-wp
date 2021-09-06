@@ -13,7 +13,11 @@
     clear: both;
 }
 
-.rounded {
+.image_property {
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+    background-blend-mode: multiply;
     border-radius: .5rem;
 }
 
@@ -52,6 +56,7 @@
 body {
     margin: auto;
     width: 800px;
+    background-color: cadetblue;
 }
 
 body * {
@@ -84,10 +89,6 @@ a:link, a:visited, a:hover, a:active {
 
 .main_section {
     background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: lightgray;
-    background-blend-mode: multiply;
     height: 300px;
     width: 100%;
 }
@@ -125,9 +126,24 @@ a:link, a:visited, a:hover, a:active {
 
 /* Columns */
 
+.top.l_column, .top.r_column, .top.m_column {
+    height: 160px;
+}
+
+.top.l_column {
+    background-image: url(../img/img-1.jpg);
+}
+
+.top.r_column {
+    background-image: url(../img/img-3.jpg);
+}
+
+.top.m_column {
+    background-image: url(../img/banner-2.jpg);
+}
+
 aside {
     float: left;
-    background-color: saddlebrown;
     width: 20%;
     margin-bottom: 10px;
 }
