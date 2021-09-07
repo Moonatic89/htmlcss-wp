@@ -157,6 +157,7 @@ a:link, a:visited, a:hover, a:active {
     height: 160px;
     object-fit: cover;
     object-position: center;
+    filter: brightness(.9);
 }
 
 p.bot_text {
