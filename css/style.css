@@ -7,8 +7,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.clearfix {
-    content: "flanella";
+.clearfix::after {
+    content: "";
     display: table;
     clear: both;
 }
