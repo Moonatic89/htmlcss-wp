@@ -135,42 +135,32 @@ a:link, a:visited, a:hover, a:active {
 
 .columns {
     width: 100%;
-    height: 400px;
 }
 
-.top.l_column, .top.r_column, .top.m_column {
+.top.l_column, .top.r_column, .m_top.m_column {
     height: 160px;
 }
 
-.top.l_column {
-    background-image: url(../img/img-1.jpg);
-}
-
-.top.r_column {
-    background-image: url(../img/img-3.jpg);
-}
-
-.top.m_column {
-    background-image: url(../img/banner-2.jpg);
-}
-
-.top {
+.top, .m_top {
     float: left;
     width: 20%;
     margin-bottom: 10px;
 }
 
-.m_column {
+.m_top {
     width: 55%;
     margin: 0px 2.5% 10px 2.5%;
 }
 
-p.bot_text {
-    font-size: 10px;
+.l_column, .r_column, .m_column {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
 }
 
-h5.bot_text {
-    padding-top: 170px;
+p.bot_text {
+    font-size: 10px;
 }
 
 /* footer */
